@@ -1,0 +1,11 @@
+framework: custom
+build:
+  commands:
+    - apt-get update -yq
+    - apt-get install -yq ffmpeg libsox-fmt-all
+    - pip install -r requirements.txt
+  compute: A10G
+runtime:
+  start_command: "bash"
+  env:
+    PYTHONUNBUFFERED: "1"
