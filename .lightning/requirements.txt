@@ -1,0 +1,6 @@
+sox==14.4.2
+pydub==0.5.1
+numpy==1.24.3
+torch==2.2.2
+torchaudio==2.2.2
+git+https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI.git@v2.1
